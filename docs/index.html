@@ -308,7 +308,7 @@ span.critic.comment::after {
 </style>
 </head><body><h1 id="orbitalanim">OrbitalAnim</h1>
 
-<h2 id="animationsofthevariationsearthsorbitoverthepast150kyrandtheirimpactsmonth-lengthandinsolation">Animations of the variations Earth&#8217;s orbit over the past 150 kyr, and their impacts month-length and insolation</h2>
+<h2 id="animationsofthevariationsearthsorbitoverthepast150kyrandtheirimpactsonmonth-lengthandinsolation">Animations of the variations Earth&#8217;s orbit over the past 150 kyr, and their impacts on month-length and insolation</h2>
 
 <p>The animations here were constructed to illustrate the changing shape of Earth&#8217;s orbit at 1 kyr intervals over the past 150 kyr. Most of the animations adopt a rotating perspective, that like the view from a geostationary satellite keeps the equinoxes and solstices at the same location in the view (also known as a hula-hoop perspective). Other animations adopt a fixed (in space) perspective, where the equinoxes and solstices rotate around the orbit over time (a wagon-wheel perspective).</p>
 
@@ -320,11 +320,21 @@ span.critic.comment::after {
 
 <ul>
 <li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_0ka/orb_0ka.html">[orb_0ka.html]</a> The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_perih_position/orb_perih_position.html">[orb_perih_position]</a> Earth&#8217;s orbit at 1-kyr intervals over the past 150 kyr, showing the changing time of year of perihelion.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monlen/orb_monlen.html">[orb_monlen]</a> An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length &#8220;anomalies&#8221; (long-term mean differences between 0 ka (1950 CE) and each time. Months are defined by the present-day (1950 CE) angles they subtend.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monangle/orb_monangle.html">[orb_monangle]</a> An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length &#8220;anomalies&#8221; (long-term mean differences between 0 ka (1950 CE) and each time. Months are defined as 12 equal angular segments.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_fixed_perih/orb_fixed_perih.html">[orb_fixed_perih]</a> Month-length anomalies as viewed relative to a fixed location of perihelion on the images (wagon-wheel perspective). Months are defined by the present-day (1950 CE) angles they subtend.</li>
 </ul>
 
 <p>For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in <code>orb_0ka.gif</code>, have been calculated using the true eccentricity values.</p>
 
 <p>Citation: If you use the animations, please cite: Bartlein, P.J. and S.L. Shafer, 2019, Paleo calendar effects on radiation, atmospheric circulation, and surface temperature, moisture, and energy-balance variables can produce interpretable but spurious large-scale patterns and trends in analyses of paleoclimatic simulations. PP31A-08, AGU 2019 Fall Meeting. <a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140">[https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140]</a>, as well as the Bartlein and Shafer <em>GMD</em> paper.</p>
+
+<p>Animations were constructed using HAniS <a href="https://www.ssec.wisc.edu/hanis/">[https://www.ssec.wisc.edu/hanis/]</a> by Tom Whittaker, Space Science &amp; Engineering Center (SSEC) at the University of Wisconsin-Madison.</p>
+
+<p>The individual .png files that make up the animations were created in R <a href="https://www.r-project.org/">[https://www.r-project.org/]</a>.</p>
+
+<p>Month lengths and insolation values were calculated using programs from <a href="https://github.com/pjbartlein/PaleoCalAdjust">[PaleoCalAdjust]</a> (Bartlein, P. J. and Shafer, S. L.: Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis, <em>Geosci. Model Dev., 12, 3889&#8211;3913</em>, <a href="https://doi.org/10.5194/gmd-12-3889-2019">https://doi.org/10.5194/gmd-12&#8211;3889&#8211;2019</a>, 2019).</p>
 
 <p>GitHub repository: <a href="https://github.com/pjbartlein/OrbitalAnim">https://github.com/pjbartlein/OrbitalAnim</a><br />
 This Web page: <a href="https://pjbartlein.github.io/OrbitalAnim/index.html">https://pjbartlein.github.io/OrbitalAnim/index.html</a></p>
