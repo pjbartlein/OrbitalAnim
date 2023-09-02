@@ -1,6 +1,5 @@
 # OrbitalAnim #
 
-
 ## Animations of the variations Earth's orbit over the past 150 kyr, and their impacts on month-length and insolation ##
 
 The animations here were constructed to illustrate the changing shape of Earth's orbit at 1 kyr intervals over the past 150 kyr.  Most of the animations adopt a rotating perspective, that like the view from a geostationary satellite keeps the equinoxes and solstices at the same location in the view (also known as a hula-hoop perspective). Other animations adopt a fixed (in space) perspective, where the equinoxes and solstices rotate around the orbit over time (a wagon-wheel perspective).
@@ -12,10 +11,13 @@ As the three orbital elements (eccentricity, obliquity, and climatic precession)
 The animations include:
 
 - [[orb_0ka.html]](https://pjbartlein.github.io/OrbitalAnim/orb_0ka/orb_0ka.html) The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year. 
-- [[orb_perih_position]](https://pjbartlein.github.io/OrbitalAnim/orb_perih_position/orb_perih_position.html) Earth's orbit at 1-kyr intervals over the past 150 kyr, showing the changing time of year of perihelion.
+- [[orb_perih_position]](https://pjbartlein.github.io/OrbitalAnim/orb_perih_position/orb_perih_position.html) Earth's orbit at 1-kyr intervals over the past 150 kyr, showing the changing time of year of perihelion.  This animation uses a rotating perspective to keep the equinoxes and solstices in the same position in the images (the "hula-hoop perspective").
 - [[orb_monlen]](https://pjbartlein.github.io/OrbitalAnim/orb_monlen/orb_monlen.html) An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length "anomalies" (long-term mean differences between 0 ka (1950 CE) and each time.  Months are defined by the present-day (1950 CE) angles they subtend.
 - [[orb_monangle]](https://pjbartlein.github.io/OrbitalAnim/orb_monangle/orb_monangle.html) An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length "anomalies" (long-term mean differences between 0 ka (1950 CE) and each time.  Months are defined as 12 equal angular segments.
 - [[orb_monlen_fixed_perih]](https://pjbartlein.github.io/OrbitalAnim/orb_monlen_fixed_perih/orb_monlen_fixed_perih.html) Month-length anomalies as viewed relative to a fixed location of perihelion on the images (wagon-wheel perspective). Months are defined by the present-day (1950 CE) angles they subtend.
+- [[orb_monlen_both]](https://pjbartlein.github.io/OrbitalAnim/orb_monlen_both/orb_monlen_both.html) This animation shows month length variations using both the "wagon-wheel" and "hula-hoop" perspectives. Months are defined by the present-day (1950 CE) angles they subtend.
+- [[orb_insol65n_anm](https://pjbartlein.github.io/OrbitalAnim/orb_insol65n_anm/orb_insol65n_anm.html) This animation shows monthly insulation anomalies (relative to 1950 CE, or 0 ka), plotted on the orbit. Months are defined by the present-day (1950 CE) angles they subtend. 
+- [[orb_solstice_anm]](https://pjbartlein.github.io/OrbitalAnim/orb_solstice_anm/orb_solstice_anm.html) This animation shows the anomalies (long-term mean differences) relative to the present day of the number of days between each mid-month day and the June solstice.  In the Northern Hemisphere, negative anomalies signal months that would appear warmer (in the case of temperature) in calendar-adjusted data, because the middle of the month is closer to the summer solstice. Negative anomalies signal the reverse.  In the Southern Hemisphere the sense of the anomalies would be reversed. 
 
 For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in `orb_0ka.gif`, have been calculated using the true eccentricity values. 
 
