@@ -11,7 +11,7 @@ As the three orbital elements (eccentricity, obliquity, and climatic precession)
 
 The animations include:
 
-- [[orb_0ka.html]](/orb_0ka/orb_oka.html) The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year. 
+- [[orb_0ka.html]](https://pjbartlein.github.io/OrbitalAnim/orb_0ka/orb_0ka.html) The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year. 
 
 
 For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in `orb_0ka.gif`, have been calculated using the true eccentricity values. 
