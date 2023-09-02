@@ -9,5 +9,14 @@ As the three orbital elements (eccentricity, obliquity, and climatic precession)
 
 ... etc.
 
+The animations include:
+
+- [[orb_0ka.html]](/orb_0ka/orb_oka.html) The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year. 
+
+
+For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in `orb_0ka.gif`, have been calculated using the true eccentricity values. 
+
+Citation:  If you use the animations, please cite:  Bartlein, P.J. and S.L. Shafer, 2019, Paleo calendar effects on radiation, atmospheric circulation, and surface temperature, moisture, and energy-balance variables can produce interpretable but spurious large-scale patterns and trends in analyses of paleoclimatic simulations. PP31A-08, AGU 2019 Fall Meeting.  [[https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140]](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140), as well as the Bartlein and Shafer *GMD* paper.
+
 GitHub repository: [https://github.com/pjbartlein/OrbitalAnim](https://github.com/pjbartlein/OrbitalAnim)  
 This Web page:  [https://pjbartlein.github.io/OrbitalAnim/index.html](https://pjbartlein.github.io/OrbitalAnim/index.html)
