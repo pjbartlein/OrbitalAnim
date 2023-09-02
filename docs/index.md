@@ -15,7 +15,7 @@ The animations include:
 - [[orb_perih_position]](https://pjbartlein.github.io/OrbitalAnim/orb_perih_position/orb_perih_position.html) Earth's orbit at 1-kyr intervals over the past 150 kyr, showing the changing time of year of perihelion.
 - [[orb_monlen]](https://pjbartlein.github.io/OrbitalAnim/orb_monlen/orb_monlen.html) An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length "anomalies" (long-term mean differences between 0 ka (1950 CE) and each time.  Months are defined by the present-day (1950 CE) angles they subtend.
 - [[orb_monangle]](https://pjbartlein.github.io/OrbitalAnim/orb_monangle/orb_monangle.html) An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length "anomalies" (long-term mean differences between 0 ka (1950 CE) and each time.  Months are defined as 12 equal angular segments.
-- [[orb_fixed_perih]](https://pjbartlein.github.io/OrbitalAnim/orb_fixed_perih/orb_fixed_perih.html) Month-length anomalies as viewed relative to a fixed location of perihelion on the images (wagon-wheel perspective). Months are defined by the present-day (1950 CE) angles they subtend.
+- [[orb_monlen_fixed_perih]](https://pjbartlein.github.io/OrbitalAnim/orb_monlen_fixed_perih/orb_monlen_fixed_perih.html) Month-length anomalies as viewed relative to a fixed location of perihelion on the images (wagon-wheel perspective). Months are defined by the present-day (1950 CE) angles they subtend.
 
 For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in `orb_0ka.gif`, have been calculated using the true eccentricity values. 
 
