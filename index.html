@@ -1,0 +1,344 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><style type="text/css">/*
+  Github style for nvUltra by Brett Terpstra and Fletcher Penney
+*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  padding: 50px !important;
+  margin: 10px `0px;
+  border: 1px solid #ccc;
+  width:  880px;
+  text-align:justify;
+}
+
+body:before {
+  content: "";
+  display: table
+}
+
+body:after {
+  content: "";
+  display: table
+}
+
+body>:first-child {
+  margin-top: 0 !important
+}
+
+body>:last-child {
+  margin-bottom: 0 !important
+}
+
+a:not([href]) {
+  color: inherit;
+  text-decoration: none
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:active, a:hover {
+  outline-width: 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote, details, dl, ol, p, pre, table, ul {
+  margin-bottom: 16px;
+  margin-top: 0
+}
+
+hr {
+  background-color: #e1e4e8;
+  border: 0;
+  height: .25em;
+  margin: 24px 0;
+  padding: 0
+}
+
+blockquote {
+  border-left: .25em solid #dfe2e5;
+  color: #6a737d;
+  padding: 0 1em
+}
+
+blockquote>:first-child {
+  margin-top: 0
+}
+
+blockquote>:last-child {
+  margin-bottom: 0
+}
+
+kbd {
+  background-color: #fafbfc;
+  border: 1px solid #c6cbd1;
+  border-bottom-color: #959da5;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #959da5;
+  color: #444d56;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 10px;
+  padding: 3px 5px;
+  vertical-align: middle
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.25;
+  margin-bottom: 16px;
+  margin-top: 24px
+}
+
+h1:hover .anchor .octicon-link, h2:hover .anchor .octicon-link, h3:hover .anchor .octicon-link, h4:hover .anchor .octicon-link, h5:hover .anchor .octicon-link, h6:hover .anchor .octicon-link {
+  visibility: visible
+}
+
+h1 code, h1 tt, h2 code, h2 tt, h3 code, h3 tt, h4 code, h4 tt, h5 code, h5 tt, h6 code, h6 tt {
+  font-size: inherit
+}
+
+h1 {
+  font-size: 2em
+}
+
+h1, h2 {
+  border-bottom: 1px solid #eaecef;
+  padding-bottom: .3em
+}
+
+h2 {
+  font-size: 1.5em
+}
+
+h3 {
+  font-size: 1.25em
+}
+
+h4 {
+  font-size: 1em
+}
+
+h5 {
+  font-size: .875em
+}
+
+h6 {
+  color: #6a737d;
+  font-size: .85em
+}
+
+ol, ul {
+  padding-left: 2em
+}
+
+ol ol, ol ul, ul ol, ul ul {
+  margin-bottom: 0;
+  margin-top: 0
+}
+
+li {
+  word-wrap: break-all
+}
+
+li>p {
+  margin-top: 16px
+}
+
+li+li {
+  margin-top: .25em
+}
+
+dl {
+  padding: 0
+}
+
+dl dt {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 16px;
+  padding: 0
+}
+
+dl dd {
+  margin-bottom: 16px;
+  padding: 0 16px
+}
+
+table {
+  display: block;
+  overflow: auto;
+  width: 100%
+}
+
+table th {
+  font-weight: 600
+}
+
+table td, table th {
+  border: 1px solid #dfe2e5;
+  padding: 6px 13px
+}
+
+table tr {
+  background-color: #fff;
+  border-top: 1px solid #c6cbd1
+}
+
+table tr:nth-child(2n) {
+  background-color: #f6f8fa
+}
+
+table img {
+  background-color: transparent
+}
+
+img {
+  background-color: #fff;
+  box-sizing: content-box;
+  max-width: 100%
+}
+
+img[align=right] {
+  padding-left: 20px
+}
+
+img[align=left] {
+  padding-right: 20px
+}
+
+.emoji {
+  background-color: transparent;
+  max-width: none;
+  vertical-align: text-top
+}
+
+code, tt {
+  background-color: rgba(27, 31, 35, .05);
+  border-radius: 3px;
+  font-size: 85%;
+  margin: 0;
+  padding: .2em .4em
+}
+
+code br, tt br {
+  display: none
+}
+
+del code {
+  text-decoration: inherit
+}
+
+pre {
+  word-wrap: normal
+}
+
+pre>code {
+  background: transparent;
+  border: 0;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  word-break: normal
+}
+
+.highlight {
+  margin-bottom: 16px
+}
+
+.highlight pre {
+  margin-bottom: 0;
+  word-break: normal
+}
+
+.highlight pre, pre {
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 85%;
+  line-height: 1.45;
+  overflow: auto;
+  padding: 16px
+}
+
+pre code, pre tt {
+  background-color: transparent;
+  border: 0;
+  display: inline;
+  line-height: inherit;
+  margin: 0;
+  max-width: auto;
+  overflow: visible;
+  padding: 0;
+  word-wrap: normal
+}
+
+/*
+  CriticMarkup CSS by Fletcher T. Penney
+
+  Shows CSS tricks to improve visibility of CriticMarkup output
+*/
+del {
+  background: #fae6e6;
+}
+
+ins {
+  background: #ecfce6;
+}
+
+span.critic.comment {
+  color: #0000bb;
+}
+
+span.critic.comment::before {
+  content: "{>> ";
+}
+
+span.critic.comment::after {
+  content: " <<}";
+}
+</style>
+</head><body><h1 id="orbitalanim">OrbitalAnim</h1>
+
+<h2 id="animationsofthevariationsearthsorbitoverthepast150kyrandtheirimpactsonmonth-lengthandinsolation">Animations of the variations Earth&#8217;s orbit over the past 150 kyr, and their impacts on month-length and insolation</h2>
+
+<p>The animations here were constructed to illustrate the changing shape of Earth&#8217;s orbit at 1 kyr intervals over the past 150 kyr. Most of the animations adopt a rotating perspective, that like the view from a geostationary satellite keeps the equinoxes and solstices at the same location in the view (also known as a hula-hoop perspective). Other animations adopt a fixed (in space) perspective, where the equinoxes and solstices rotate around the orbit over time (a wagon-wheel perspective).</p>
+
+<p>As the three orbital elements (eccentricity, obliquity, and climatic precession) change over time, so does the velocity of Earth along it&#8217;s orbit, as illustrated by Kepler’s (1609) second law of planetary motion. Earth moves faster along its elliptical orbit near perihelion and slower near aphelion. The time of year of perihelion and aphelion vary over time in a systematic way as the orbital elements change. If months are defined as a fixed angular portion of the year, then months tend to be shorter near perihelion and longer near aphelion.</p>
+
+<p>The animations include:</p>
+
+<ul>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_0ka/orb_0ka.html">[orb_0ka.html]</a> The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_perih_position/orb_perih_position.html">[orb_perih_position]</a> Earth&#8217;s orbit at 1-kyr intervals over the past 150 kyr, showing the changing time of year of perihelion. This animation uses a rotating perspective to keep the equinoxes and solstices in the same position in the images (the &#8220;hula-hoop perspective&#8221;).</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monlen/orb_monlen.html">[orb_monlen]</a> An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length &#8220;anomalies&#8221; (long-term mean differences between 0 ka (1950 CE) and each time. Months are defined by the present-day (1950 CE) angles they subtend.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monangle/orb_monangle.html">[orb_monangle]</a> An animated version of Fig. 1 in Bartlein and Shafer (2019, GMD), showing the orbit, and month-length &#8220;anomalies&#8221; (long-term mean differences between 0 ka (1950 CE) and each time. Months are defined as 12 equal angular segments.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monlen_fixed_perih/orb_monlen_fixed_perih.html">[orb_monlen_fixed_perih]</a> Month-length anomalies as viewed relative to a fixed location of perihelion on the images (wagon-wheel perspective). Months are defined by the present-day (1950 CE) angles they subtend.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_monlen_both/orb_monlen_both.html">[orb_monlen_both]</a> This animation shows month length variations using both the &#8220;hula-hoop&#8221; (left) and &#8220;wagon-wheel&#8221; (right) perspectives. Months are defined by the present-day (1950 CE) angles they subtend.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_insol65n_anm/orb_insol65n_anm.html">[orb_insol65n_anm]</a> This animation shows monthly insulation anomalies (relative to 1950 CE, or 0 ka), plotted on the orbit. Months are defined by the present-day (1950 CE) angles they subtend.</li>
+<li><a href="https://pjbartlein.github.io/OrbitalAnim/orb_solstice_anm/orb_solstice_anm.html">[orb_solstice_anm]</a> This animation shows the anomalies (long-term mean differences) relative to the present day of the number of days between each mid-month day and the June solstice. In the Northern Hemisphere, negative anomalies signal months that would appear warmer (in the case of temperature) in calendar-adjusted data, because the middle of the month is closer to the summer solstice. Negative anomalies signal the reverse. In the Southern Hemisphere the sense of the anomalies would be reversed.</li>
+</ul>
+
+<p>For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in, for example, <code>orb_0ka.html</code>, have been calculated using the true eccentricity values.</p>
+
+<p>Input data files, R scripts and animated .gifs (along with the individual .pngs) can be found at the GitHub repository for these pages <a href="https://github.com/pjbartlein/OrbitalAnim">https://github.com/pjbartlein/OrbitalAnim</a></p>
+
+<p>Citation: If you use the animations, please cite: Bartlein, P.J. and S.L. Shafer, 2019, Paleo calendar effects on radiation, atmospheric circulation, and surface temperature, moisture, and energy-balance variables can produce interpretable but spurious large-scale patterns and trends in analyses of paleoclimatic simulations. PP31A-08, AGU 2019 Fall Meeting. <a href="https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140">[https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140]</a>, as well as the Bartlein and Shafer <em>GMD</em> paper.</p>
+
+<p>Animations were constructed using HAniS <a href="https://www.ssec.wisc.edu/hanis/">[https://www.ssec.wisc.edu/hanis/]</a> by Tom Whittaker, Space Science &amp; Engineering Center (SSEC) at the University of Wisconsin-Madison.</p>
+
+<p>The individual .png files that make up the animations were created in R <a href="https://www.r-project.org/">[https://www.r-project.org/]</a>.</p>
+
+<p>Month lengths and insolation values were calculated using programs from <a href="https://github.com/pjbartlein/PaleoCalAdjust">[PaleoCalAdjust]</a> (Bartlein, P. J. and Shafer, S. L.: Paleo calendar-effect adjustments in time-slice and transient climate-model simulations (PaleoCalAdjust v1.0): impact and strategies for data analysis, <em>Geosci. Model Dev., 12, 3889&#8211;3913</em>, <a href="https://doi.org/10.5194/gmd-12-3889-2019">https://doi.org/10.5194/gmd-12&#8211;3889&#8211;2019</a>, 2019).</p>
+
+<p>GitHub repository: <a href="https://github.com/pjbartlein/OrbitalAnim">https://github.com/pjbartlein/OrbitalAnim</a><br />
+This Web page: <a href="https://pjbartlein.github.io/OrbitalAnim/index.html">https://pjbartlein.github.io/OrbitalAnim/index.html</a></p>
+</body></html>

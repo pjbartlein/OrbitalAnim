@@ -6,8 +6,6 @@ The animations here were constructed to illustrate the changing shape of Earth's
 
 As the three orbital elements (eccentricity, obliquity, and climatic precession) change over time, so does the velocity of Earth along it's orbit, as illustrated by Kepler’s (1609) second law of planetary motion. Earth moves faster along its elliptical orbit near perihelion and slower near aphelion. The time of year of perihelion and aphelion vary over time in a systematic way as the orbital elements change. If months are defined as a fixed angular portion of the year, then months tend to be shorter near perihelion and longer near aphelion.
 
-... etc.
-
 The animations include:
 
 - [[orb_0ka.html]](https://pjbartlein.github.io/OrbitalAnim/orb_0ka/orb_0ka.html) The present-day elliptical orbit, showing the position of the Earth at 5-degree intervals during the year. 
@@ -19,7 +17,9 @@ The animations include:
 - [[orb_insol65n_anm]](https://pjbartlein.github.io/OrbitalAnim/orb_insol65n_anm/orb_insol65n_anm.html) This animation shows monthly insulation anomalies (relative to 1950 CE, or 0 ka), plotted on the orbit. Months are defined by the present-day (1950 CE) angles they subtend. 
 - [[orb_solstice_anm]](https://pjbartlein.github.io/OrbitalAnim/orb_solstice_anm/orb_solstice_anm.html) This animation shows the anomalies (long-term mean differences) relative to the present day of the number of days between each mid-month day and the June solstice.  In the Northern Hemisphere, negative anomalies signal months that would appear warmer (in the case of temperature) in calendar-adjusted data, because the middle of the month is closer to the summer solstice. Negative anomalies signal the reverse.  In the Southern Hemisphere the sense of the anomalies would be reversed. 
 
-For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in `orb_0ka.html`, have been calculated using the true eccentricity values. 
+For the sake of illustration, eccentricity has been exaggerated by ten for plotting in each animation, but the geometric positions, and the orbital speed in, for example, `orb_0ka.html`, have been calculated using the true eccentricity values. 
+
+Input data files, R scripts and animated .gifs (along with the individual .pngs) can be found at the GitHub repository for these pages [https://github.com/pjbartlein/OrbitalAnim](https://github.com/pjbartlein/OrbitalAnim) 
 
 Citation:  If you use the animations, please cite:  Bartlein, P.J. and S.L. Shafer, 2019, Paleo calendar effects on radiation, atmospheric circulation, and surface temperature, moisture, and energy-balance variables can produce interpretable but spurious large-scale patterns and trends in analyses of paleoclimatic simulations. PP31A-08, AGU 2019 Fall Meeting.  [[https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140]](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/525140), as well as the Bartlein and Shafer *GMD* paper.
 
