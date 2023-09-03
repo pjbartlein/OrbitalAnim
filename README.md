@@ -4,13 +4,12 @@ Animations of Earth's orbit over the past 150 kyr and month-length and insolatio
 (The animations included here illustrate the nature of Earth's elliptical orbit about the sun, and the changing month lengths over the past 150 kyr related to variations in Earth's orbital elements.  The animations were created in R, and can be reproduced using the included scripts (adjusting for the local environment).  The R scripts create a set of .pngs, one per time step (or frame), and these can be converted to animated .gifs using ImageMagick.
 
 The folders include: 
-	
 				
 	/ input     ! orbital elements and month lengths for the past 150 kyr, and a text file of 
-	              months and days in a 365-day year
+	              months and days in a 365-day yea
 
-	Eight subfolders, containing individual .pngs (and the HAniS .html, config, and file list files:
-
+	Individual .pngs (and the HAniS .html, config, and filelist files):	
+	
 	/ orb_0ka
 	/ orb_perih_position
 	/ orb_monlen
